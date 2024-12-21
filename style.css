@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px 25px;
+  color: rgb(0, 0, 0);
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.banner-container {
+  position: relative;
+  /* width: 100%; */
+  height: 600px;
+  background: url('https://s3.rdbuz.com/images/webplatform/india/Homepage-header-800.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.search-container {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-fields input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-fields button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-fields button:hover {
+  background-color: #c62828;
+}
+
+.search-fields input:focus {
+  outline: none;
+  border-color: #e53935;
+}
+
+.coupons-container {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  gap: 3rem;
+  width: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+.coupon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #c7432c;
+  color: #fff;
+}
+.coupon:hover {
+  background-color: #ff4a33;
+  cursor: pointer;
+}
+.coupon-code {
+  font-weight: bold;
+  font-size: 18px;
+}
+.copy-btn {
+  background-color: #ffffff;
+  color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.copy-btn:hover {
+  background-color: #ff6347;
+  color: #ffffff;
+}
+
+
+.on-time-guarantee-container {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.on-time-guarantee-container h2 {
+  color: #e63946;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.on-time-guarantee-container p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0 0 15px;
+}
+
+.icon {
+  font-size: 50px;
+  color: #e63946;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #e63946;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #b02430;
+}
+
+.guarantee-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.guarantee-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.guarantee-list li span {
+  color: #e63946;
+  margin-right: 10px;
+}
+
+.guarantee-list li:last-child {
+  border-bottom: none;
+}
+
+.offer-container {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.offer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.offer-header h2 {
+  font-size: 24px;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.offer-header p {
+  font-size: 16px;
+  color: #555;
+}
+
+.offer-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.offer-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.offer-item img {
+  border-radius: 5px;
+}
+
+.offer-item h3 {
+  font-size: 18px;
+  padding: 10px;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.offer-item p {
+  font-size: 14px;
+  color: #777;
+}
+
+.offer-btn {
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.offer-btn:hover {
+  background-color: #c2185b;
+}

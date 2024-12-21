@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redbus </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="img/redbus.png" alt=""></div>
+
+        <ul>
+            <li><a href="#">Bus Tickets</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Rides</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="file:///D:/MY%20WEBSITES/RedBus/login.html">Log In</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="banner-container">
+        <div class="overlay"></div>
+        <div class="search-container">
+            <div class="search-fields">
+                <input type="text" placeholder="From">
+                <input type="text" placeholder="To">
+                <input type="date">
+                <button>Search Buses</button>
+            </div>
+        </div>
+    </div>
+  
+    <div class="coupons-container">
+        <div class="coupon">
+            <span class="coupon-code">RED123</span>
+            <button class="copy-btn" onclick="copyCode('RED123')">Copy</button>
+        </div>
+        <div class="coupon">
+            <span class="coupon-code">TRAVEL50</span>
+            <button class="copy-btn" onclick="copyCode('TRAVEL50')">Copy</button>
+        </div>
+        <div class="coupon">
+            <span class="coupon-code">BUS10</span>
+            <button class="copy-btn" onclick="copyCode('BUS10')">Copy</button>
+        </div>
+    </div>
+
+    <div class="on-time-guarantee-container">
+        <div class="icon">&#x23F3;</div>
+        <h2>Introducing On-Time Guarantee</h2>
+        <p>At RedBus, we value your time and ensure punctuality like never before. Our On-Time Guarantee promises that you’ll reach your destination as planned—or you get a refund!</p>
+        <ul class="guarantee-list">
+            <li><span>&#10003;</span> No delays on verified routes</li>
+            <li><span>&#10003;</span> Refunds in case of significant delays</li>
+            <li><span>&#10003;</span> Real-time tracking for peace of mind</li>
+        </ul>
+        <a href="#" class="cta-button">Learn More</a>
+    </div>
+
+    <div class="offer-container">
+        <div class="offer-header">
+            <img src="" alt="">
+            <h2>RedBus Offers</h2>
+            <p>Exclusive discounts just for you!</p>
+        </div>
+        <div class="offer-list">
+            <div class="offer-item">
+                <img src="img/274x148.png" alt="">
+                <h3>Flat 20% Off First Booking</h3>
+                <p>Use code: FIRST20</p>
+                <button class="offer-btn">Book Now</button>
+            </div>
+            <div class="offer-item">
+                <img src="img/surat300x274x147.png" alt="">
+                <h3>Get ₹200 Cashback</h3>
+                <p>Use code: CASHBACK200</p>
+                <button class="offer-btn">Book Now</button>
+            </div>
+            <div class="offer-item">
+                <img src="img/tile-274X148.png" alt="">
+                <h3>Buy 1 Get 1 Free</h3>
+                <p>Use code: BOGO</p>
+                <button class="offer-btn">Book Now</button>
+            </div>
+            <div class="offer-item">
+                <img src="img/nagpur274x147.png" alt="">
+                <h3>Buy 50% Offer</h3>
+                <p>Use code: NAGPUR300</p>
+                <button class="offer-btn">Book Now</button>
+            </div>
+        </div>
+    </div>
+    
+
+   
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
